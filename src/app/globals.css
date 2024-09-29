@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -24,4 +24,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
