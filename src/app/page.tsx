@@ -4,9 +4,6 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      <h1>Главная страница</h1>
-      <Link href="/staticUrl">To the first static page</Link>
-    </>
+    <h1>Главная страница</h1>
   );
 }
