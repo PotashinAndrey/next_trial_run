@@ -1,9 +1,9 @@
-// import Image from "next/image";
-
-import Link from "next/link";
+function fetchData() {
+  const res = fetch("https://jsonplaceholder.typicode.com/posts");
+}
 
 export default function Home() {
   return (
-    <h1>Главная страница</h1>
+    <h1>Home page</h1>
   );
 }
