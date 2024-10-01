@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-type FetchedDataType = {
+export type PostType = {
   userId: number;
   id: number;
   title: string;
   body: string;
 };
 
-async function fetchData(): Promise<FetchedDataType[]> {
+async function fetchData(): Promise<PostType[]> {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
 
   const data = await res.json();
